@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED6394F01B4225100062804E /* back_arrow_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394EF1B4225100062804E /* back_arrow_icon.png */; };
+		ED6394F11B4225100062804E /* back_arrow_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394EF1B4225100062804E /* back_arrow_icon.png */; };
+		ED6394F41B4225370062804E /* safari_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F21B4225370062804E /* safari_icon.png */; };
+		ED6394F51B4225370062804E /* safari_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F21B4225370062804E /* safari_icon.png */; };
+		ED6394F61B4225370062804E /* share_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F31B4225370062804E /* share_icon.png */; };
+		ED6394F71B4225370062804E /* share_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F31B4225370062804E /* share_icon.png */; };
+		ED6394F91B42254E0062804E /* close_link_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F81B42254E0062804E /* close_link_icon.png */; };
+		ED6394FA1B42254E0062804E /* close_link_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ED6394F81B42254E0062804E /* close_link_icon.png */; };
 		ED7EDC031B412660004D411C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EDC021B412660004D411C /* AppDelegate.swift */; };
 		ED7EDC051B412660004D411C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EDC041B412660004D411C /* ViewController.swift */; };
 		ED7EDC081B412660004D411C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7EDC061B412660004D411C /* Main.storyboard */; };
 		ED7EDC0A1B412660004D411C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7EDC091B412660004D411C /* Images.xcassets */; };
 		ED7EDC0D1B412660004D411C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7EDC0B1B412660004D411C /* LaunchScreen.xib */; };
 		ED7EDC191B412660004D411C /* CustomWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EDC181B412660004D411C /* CustomWebViewTests.swift */; };
+		ED7EDC231B413142004D411C /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EDC221B413142004D411C /* MailViewController.swift */; };
+		ED7EDC251B41314F004D411C /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EDC241B41314F004D411C /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED6394EF1B4225100062804E /* back_arrow_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_arrow_icon.png; sourceTree = "<group>"; };
+		ED6394F21B4225370062804E /* safari_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safari_icon.png; sourceTree = "<group>"; };
+		ED6394F31B4225370062804E /* share_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_icon.png; sourceTree = "<group>"; };
+		ED6394F81B42254E0062804E /* close_link_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_link_icon.png; sourceTree = "<group>"; };
 		ED7EDBFD1B412660004D411C /* CustomWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7EDC011B412660004D411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7EDC021B412660004D411C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		ED7EDC121B412660004D411C /* CustomWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7EDC171B412660004D411C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED7EDC181B412660004D411C /* CustomWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWebViewTests.swift; sourceTree = "<group>"; };
+		ED7EDC221B413142004D411C /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		ED7EDC241B41314F004D411C /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,8 @@
 			children = (
 				ED7EDC021B412660004D411C /* AppDelegate.swift */,
 				ED7EDC041B412660004D411C /* ViewController.swift */,
+				ED7EDC221B413142004D411C /* MailViewController.swift */,
+				ED7EDC241B41314F004D411C /* WebViewViewController.swift */,
 				ED7EDC061B412660004D411C /* Main.storyboard */,
 				ED7EDC091B412660004D411C /* Images.xcassets */,
 				ED7EDC0B1B412660004D411C /* LaunchScreen.xib */,
@@ -90,6 +108,10 @@
 		ED7EDC001B412660004D411C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED6394F81B42254E0062804E /* close_link_icon.png */,
+				ED6394F21B4225370062804E /* safari_icon.png */,
+				ED6394F31B4225370062804E /* share_icon.png */,
+				ED6394EF1B4225100062804E /* back_arrow_icon.png */,
 				ED7EDC011B412660004D411C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +214,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6394F61B4225370062804E /* share_icon.png in Resources */,
 				ED7EDC081B412660004D411C /* Main.storyboard in Resources */,
+				ED6394F91B42254E0062804E /* close_link_icon.png in Resources */,
+				ED6394F41B4225370062804E /* safari_icon.png in Resources */,
+				ED6394F01B4225100062804E /* back_arrow_icon.png in Resources */,
 				ED7EDC0D1B412660004D411C /* LaunchScreen.xib in Resources */,
 				ED7EDC0A1B412660004D411C /* Images.xcassets in Resources */,
 			);
@@ -202,6 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED6394F71B4225370062804E /* share_icon.png in Resources */,
+				ED6394FA1B42254E0062804E /* close_link_icon.png in Resources */,
+				ED6394F51B4225370062804E /* safari_icon.png in Resources */,
+				ED6394F11B4225100062804E /* back_arrow_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +244,8 @@
 			files = (
 				ED7EDC051B412660004D411C /* ViewController.swift in Sources */,
 				ED7EDC031B412660004D411C /* AppDelegate.swift in Sources */,
+				ED7EDC251B41314F004D411C /* WebViewViewController.swift in Sources */,
+				ED7EDC231B413142004D411C /* MailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +441,7 @@
 				ED7EDC1E1B412660004D411C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED7EDC1F1B412660004D411C /* Build configuration list for PBXNativeTarget "CustomWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +450,7 @@
 				ED7EDC211B412660004D411C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
